@@ -1,0 +1,17 @@
+ALGORITHM algorithm_name
+VAR
+    C: CHAR;
+    nbv:INTEGER:=0 ;
+    nbc:INTEGER ;
+    nbm:INTEGER ;
+BEGIN
+nbc=:0;
+REPEAT
+read (C)
+nbc:=nbc+1;
+IF (C= 'a' OR 'e' OR 'i' OR 'o' OR 'u' OR 'y') THEN
+    nbv:=nvb+1;
+END_IF
+UNTIL (C='.')
+WRITE (nbc,nbc,nbv)
+END
